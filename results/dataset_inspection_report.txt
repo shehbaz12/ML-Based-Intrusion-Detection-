@@ -1,0 +1,185 @@
+======================================================================
+CIC-IDS2017 DATASET INSPECTION REPORT (batch mode)
+======================================================================
+
+Found 8 CSV files:
+  Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv  (77.1 MB)
+  Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv  (76.9 MB)
+  Friday-WorkingHours-Morning.pcap_ISCX.csv  (58.3 MB)
+  Monday-WorkingHours.pcap_ISCX.csv  (176.9 MB)
+  Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv  (83.1 MB)
+  Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv  (52.0 MB)
+  Tuesday-WorkingHours.pcap_ISCX.csv  (135.1 MB)
+  Wednesday-workingHours.pcap_ISCX.csv  (225.2 MB)
+
+======================================================================
+[PASS 1] Per-file inspection (one file at a time)
+======================================================================
+
+  >> Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+     Rows: 225,745  |  Cols: 79
+     Duplicates (within file): 2,633
+
+  >> Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+     Rows: 286,467  |  Cols: 79
+     Duplicates (within file): 72,353
+
+  >> Friday-WorkingHours-Morning.pcap_ISCX.csv
+     Rows: 191,033  |  Cols: 79
+     Duplicates (within file): 6,901
+
+  >> Monday-WorkingHours.pcap_ISCX.csv
+     Rows: 529,918  |  Cols: 79
+     Duplicates (within file): 27,012
+
+  >> Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+     Rows: 288,602  |  Cols: 79
+     Duplicates (within file): 35,656
+
+  >> Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+     Rows: 170,366  |  Cols: 79
+     Duplicates (within file): 6,092
+
+  >> Tuesday-WorkingHours.pcap_ISCX.csv
+     Rows: 445,909  |  Cols: 79
+     Duplicates (within file): 24,089
+
+  >> Wednesday-workingHours.pcap_ISCX.csv
+     Rows: 692,703  |  Cols: 79
+     Duplicates (within file): 81,948
+
+======================================================================
+[SUMMARY]
+======================================================================
+
+Total rows (all files): 2,830,743
+Total columns          : 79
+Total duplicates       : 256,684
+
+[RAW column names from first file — first 10 (showing whitespace)]:
+  [00] repr=' Destination Port'
+  [01] repr=' Flow Duration'
+  [02] repr=' Total Fwd Packets'
+  [03] repr=' Total Backward Packets'
+  [04] repr='Total Length of Fwd Packets'
+  [05] repr=' Total Length of Bwd Packets'
+  [06] repr=' Fwd Packet Length Max'
+  [07] repr=' Fwd Packet Length Min'
+  [08] repr=' Fwd Packet Length Mean'
+  [09] repr=' Fwd Packet Length Std'
+  ... (79 total)
+
+[Column names after stripping — all 79 columns]:
+  [00] Destination Port
+  [01] Flow Duration
+  [02] Total Fwd Packets
+  [03] Total Backward Packets
+  [04] Total Length of Fwd Packets
+  [05] Total Length of Bwd Packets
+  [06] Fwd Packet Length Max
+  [07] Fwd Packet Length Min
+  [08] Fwd Packet Length Mean
+  [09] Fwd Packet Length Std
+  [10] Bwd Packet Length Max
+  [11] Bwd Packet Length Min
+  [12] Bwd Packet Length Mean
+  [13] Bwd Packet Length Std
+  [14] Flow Bytes/s
+  [15] Flow Packets/s
+  [16] Flow IAT Mean
+  [17] Flow IAT Std
+  [18] Flow IAT Max
+  [19] Flow IAT Min
+  [20] Fwd IAT Total
+  [21] Fwd IAT Mean
+  [22] Fwd IAT Std
+  [23] Fwd IAT Max
+  [24] Fwd IAT Min
+  [25] Bwd IAT Total
+  [26] Bwd IAT Mean
+  [27] Bwd IAT Std
+  [28] Bwd IAT Max
+  [29] Bwd IAT Min
+  [30] Fwd PSH Flags
+  [31] Bwd PSH Flags
+  [32] Fwd URG Flags
+  [33] Bwd URG Flags
+  [34] Fwd Header Length
+  [35] Bwd Header Length
+  [36] Fwd Packets/s
+  [37] Bwd Packets/s
+  [38] Min Packet Length
+  [39] Max Packet Length
+  [40] Packet Length Mean
+  [41] Packet Length Std
+  [42] Packet Length Variance
+  [43] FIN Flag Count
+  [44] SYN Flag Count
+  [45] RST Flag Count
+  [46] PSH Flag Count
+  [47] ACK Flag Count
+  [48] URG Flag Count
+  [49] CWE Flag Count
+  [50] ECE Flag Count
+  [51] Down/Up Ratio
+  [52] Average Packet Size
+  [53] Avg Fwd Segment Size
+  [54] Avg Bwd Segment Size
+  [55] Fwd Header Length.1
+  [56] Fwd Avg Bytes/Bulk
+  [57] Fwd Avg Packets/Bulk
+  [58] Fwd Avg Bulk Rate
+  [59] Bwd Avg Bytes/Bulk
+  [60] Bwd Avg Packets/Bulk
+  [61] Bwd Avg Bulk Rate
+  [62] Subflow Fwd Packets
+  [63] Subflow Fwd Bytes
+  [64] Subflow Bwd Packets
+  [65] Subflow Bwd Bytes
+  [66] Init_Win_bytes_forward
+  [67] Init_Win_bytes_backward
+  [68] act_data_pkt_fwd
+  [69] min_seg_size_forward
+  [70] Active Mean
+  [71] Active Std
+  [72] Active Max
+  [73] Active Min
+  [74] Idle Mean
+  [75] Idle Std
+  [76] Idle Max
+  [77] Idle Min
+  [78] Label
+
+[Data types (from first file)]:
+  int64          : 54 columns
+  float64        : 24 columns
+  str            : 1 columns
+
+[Label distribution (15 classes)]:
+  BENIGN                                                  2,273,097  (80.300%)
+  DoS Hulk                                                 231,073  (8.163%)
+  PortScan                                                 158,930  (5.614%)
+  DDoS                                                     128,027  (4.523%)
+  DoS GoldenEye                                             10,293  (0.364%)
+  FTP-Patator                                                7,938  (0.280%)
+  SSH-Patator                                                5,897  (0.208%)
+  DoS slowloris                                              5,796  (0.205%)
+  DoS Slowhttptest                                           5,499  (0.194%)
+  Bot                                                        1,966  (0.069%)
+  Web Attack � Brute Force                                   1,507  (0.053%)
+  Web Attack � XSS                                             652  (0.023%)
+  Infiltration                                                  36  (0.001%)
+  Web Attack � Sql Injection                                    21  (0.001%)
+  Heartbleed                                                    11  (0.000%)
+  TOTAL                                                   2,830,743
+
+[Columns with NaN values (accumulated across all files)]:
+  Flow Bytes/s                                      : 1,358
+
+[Columns with infinite values (accumulated across all files)]:
+  Flow Packets/s                                    : 2,867
+  Flow Bytes/s                                      : 1,509
+
+======================================================================
+INSPECTION COMPLETE
+======================================================================

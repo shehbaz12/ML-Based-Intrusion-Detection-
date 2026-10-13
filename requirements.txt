@@ -1,0 +1,21 @@
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+joblib>=1.3.0
+scipy>=1.11.0
+hypothesis>=6.0.0
+pytest>=7.0.0
+psutil>=5.9.0
+notebook>=7.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Note: imbalanced-learn is NOT used due to Windows App Control policy blocking
+# Cython DLL extensions. SMOTE and RandomUnderSampler are implemented in
+# src/preprocessing.py using pure numpy/scikit-learn (no compiled extensions).
+#
+# Note: shap is NOT used for the same reason. Feature importance is analyzed
+# using model.feature_importances_ from tree-based models instead.

@@ -1,0 +1,77 @@
+feature,importance
+Idle Mean,0.020361314
+Idle Min,0.020251397
+Bwd Packet Length Mean,0.020062137
+Packet Length Variance,0.019930657
+Bwd IAT Max,0.019836381
+Fwd Packet Length Max,0.019782804
+Bwd IAT Min,0.019581618
+Bwd IAT Mean,0.019569146
+Bwd IAT Std,0.019499507
+Bwd Header Length,0.019486953
+Bwd Packet Length Std,0.01932642
+Bwd IAT Total,0.019321611
+Total Length of Bwd Packets,0.0192102
+Packet Length Std,0.019169023
+Fwd Packet Length Mean,0.01916405
+Bwd Packet Length Max,0.019001681
+Fwd IAT Std,0.018946571
+Average Packet Size,0.018680818
+Active Mean,0.018589605
+Flow IAT Std,0.018478882
+Packet Length Mean,0.01841742
+Fwd Packet Length Std,0.018183341
+Max Packet Length,0.018165104
+Fwd PSH Flags,0.018005596
+Fwd IAT Min,0.017995633
+Total Length of Fwd Packets,0.017927632
+Active Max,0.01788094
+Flow Packets/s,0.01781113
+Fwd Header Length,0.017754879
+Fwd IAT Max,0.017697906
+Total Backward Packets,0.017679233
+Fwd IAT Total,0.017627452
+Active Min,0.017522518
+Fwd IAT Mean,0.017326662
+Flow IAT Max,0.017169438
+Init_Win_bytes_backward,0.01715717
+Active Std,0.016788907
+PSH Flag Count,0.016742954
+Bwd Packets/s,0.01670825
+act_data_pkt_fwd,0.016664594
+Flow IAT Min,0.016605338
+Flow IAT Mean,0.016590204
+Idle Max,0.01649884
+Total Fwd Packets,0.016342623
+FIN Flag Count,0.016129237
+Fwd Packets/s,0.01600211
+Flow Bytes/s,0.015977878
+Idle Std,0.015914489
+Flow Duration,0.0153947845
+min_seg_size_forward,0.0150693115
+Fwd Packet Length Min,0.015056315
+ACK Flag Count,0.0147654535
+Bwd Packet Length Min,0.013893154
+Down/Up Ratio,0.013603868
+Init_Win_bytes_forward,0.013205649
+Min Packet Length,0.0130437
+URG Flag Count,0.011747936
+RST Flag Count,0.004681575
+Fwd URG Flags,0.0
+Bwd URG Flags,0.0
+SYN Flag Count,0.0
+Bwd PSH Flags,0.0
+Bwd Avg Bulk Rate,0.0
+Bwd Avg Packets/Bulk,0.0
+Fwd Avg Packets/Bulk,0.0
+Fwd Avg Bytes/Bulk,0.0
+Avg Bwd Segment Size,0.0
+Avg Fwd Segment Size,0.0
+CWE Flag Count,0.0
+ECE Flag Count,0.0
+Bwd Avg Bytes/Bulk,0.0
+Fwd Avg Bulk Rate,0.0
+Subflow Fwd Packets,0.0
+Subflow Fwd Bytes,0.0
+Subflow Bwd Packets,0.0
+Subflow Bwd Bytes,0.0
